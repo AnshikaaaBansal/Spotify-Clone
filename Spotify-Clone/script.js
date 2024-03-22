@@ -1,6 +1,6 @@
 // Initialize the Variables
 let songIndex = 0;
-let audioElement = new Audio("songs/1.mp3");
+let audioElement = new Audio("Spotify-Clone/songs/1.mp3");
 let masterPlay = document.getElementById("masterPlay");
 let myProgressBar = document.getElementById("myProgressBar");
 let gif = document.getElementById("gif");
@@ -10,8 +10,8 @@ let songItems = Array.from(document.getElementsByClassName("songItem"));
 let songs = [
     {
         songName: "Jashn E Bahaaraa - Jodhaa Akbar",
-        filePath: "songs/1.mp3",
-        coverPath: "covers/1.jpg",
+        filePath: "Spotify-Clone/songs/1.mp3",
+        coverPath: "Spotify-Clone/covers/1.jpg",
     },
     {
         songName: "Sab Tera - Baaghi",
@@ -25,38 +25,38 @@ let songs = [
     },
     {
         songName: "Enna Sona - OK Jaanu",
-        filePath: "songs/4.mp3",
-        coverPath: "covers/4.jpg",
+        filePath: "Spotify-Clone/songs/4.mp3",
+        coverPath: "Spotify-Clone/covers/4.jpg",
     },
     {
         songName: "Sawarne Lage - Mitron",
-        filePath: "songs/5.mp3",
-        coverPath: "covers/5.jpg",
+        filePath: "Spotify-Clone/songs/5.mp3",
+        coverPath: "Spotify-Clone/covers/5.jpg",
     },
     {
         songName: "Iktara - Wake Up Sid",
-        filePath: "songs/6.mp3",
-        coverPath: "covers/6.jpg",
+        filePath: "Spotify-Clone/songs/6.mp3",
+        coverPath: "Spotify-Clone/covers/6.jpg",
     },
     {
         songName: "Phir Se Ud Chala - Rockstar",
-        filePath: "songs/7.mp3",
-        coverPath: "covers/7.jpg",
+        filePath: "Spotify-Clone/songs/7.mp3",
+        coverPath: "Spotify-Clone/covers/7.jpg",
     },
     {
         songName: "O Mahi O Mahi - Dunki",
-        filePath: "songs/8.mp3",
-        coverPath: "covers/8.jpg",
+        filePath: "Spotify-Clone/songs/8.mp3",
+        coverPath: "Spotify-Clone/covers/8.jpg",
     },
     {
         songName: "Kabira - Yeh Jawaani Hai Deewani",
-        filePath: "songs/9.mp3",
-        coverPath: "covers/9.jpg",
+        filePath: "Spotify-Clone/songs/9.mp3",
+        coverPath: "Spotify-Clone/covers/9.jpg",
     },
     {
         songName: "Tum Hi Ho - Aashiqui 2",
-        filePath: "songs/10.mp3",
-        coverPath: "covers/10.jpg",
+        filePath: "Spotify-Clone/songs/10.mp3",
+        coverPath: "Spotify-Clone/covers/10.jpg",
     },
 ];
 
