@@ -15,13 +15,13 @@ let songs = [
     },
     {
         songName: "Sab Tera - Baaghi",
-        filePath: "songs/2.mp3",
-        coverPath: "covers/2.jpg",
+        filePath: "Spotify-Clone/songs/2.mp3",
+        coverPath: "Spotify-Clone/covers/2.jpg",
     },
     {
         songName: "Kaise Hua - Kabir Singh",
-        filePath: "songs/3.mp3",
-        coverPath: "covers/3.jpg",
+        filePath: "Spotify-Clone/songs/3.mp3",
+        coverPath: "Spotify-Clone/covers/3.jpg",
     },
     {
         songName: "Enna Sona - OK Jaanu",
